@@ -4,6 +4,7 @@ let numeroSecreto = Math.floor(Math.random()*numeroMaximo)+1;
 let numeroUsuario = 0;
 let intentos = 1;
 let maximoIntentos = parseInt(Math.floor(numeroMaximo/3));
+
 //loop
 while(numeroUsuario != numeroSecreto) {
     //solicitar variable numeroUsuario
